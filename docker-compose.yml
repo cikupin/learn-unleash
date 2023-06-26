@@ -31,7 +31,7 @@ services:
   db:
     expose:
       - "5432"
-    image: 15.3-alpine3.18
+    image: postgres:15.3-alpine3.18
     environment:
       POSTGRES_DB: "db"
       POSTGRES_HOST_AUTH_METHOD: "trust"
